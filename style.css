@@ -1,0 +1,72 @@
+
+
+
+/*header start*/
+
+.header{
+display: grid;
+grid-template-columns: 1fr 1fr;
+
+
+}
+
+.logo{
+    display: grid;
+   
+    transform: translate(200px, 0px);
+   
+}
+
+.buttonshead{
+    display: grid;
+    
+    justify-content: end;
+    padding: 30px;
+    grid-template-columns: 1fr 1fr 2fr;
+    transform: translate(300PX, 0PX);
+
+   
+
+}
+
+.wlcmtext {
+    display: inline-block;
+   
+    transform: translate(200px, 100px);   
+    color: white;
+}
+
+.wlcmtext2 {
+   
+    color: white;
+}
+
+.imgright{
+    transform: translate(800px, -141px);
+}
+
+
+/*body start*/
+
+body{
+    background-color: #1f2937;
+}
+
+.body1{
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer start*/
