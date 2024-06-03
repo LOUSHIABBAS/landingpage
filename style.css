@@ -6,7 +6,7 @@
 .header{
 display: grid;
 grid-template-columns: 1fr 1fr;
-width: 1100px;
+width: 100vw;
 
 
 }
@@ -24,8 +24,6 @@ width: 1100px;
     justify-content: end;
     padding: 30px;
     grid-template-columns: 1fr 1fr 2fr;
-    transform: translate(500PX, 0PX);
-
    
 
 }
