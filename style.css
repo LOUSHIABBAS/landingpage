@@ -6,6 +6,7 @@
 .header{
 display: grid;
 grid-template-columns: 1fr 1fr;
+width: 1100px;
 
 
 }
@@ -23,7 +24,7 @@ grid-template-columns: 1fr 1fr;
     justify-content: end;
     padding: 30px;
     grid-template-columns: 1fr 1fr 2fr;
-    transform: translate(300PX, 0PX);
+    transform: translate(500PX, 0PX);
 
    
 
@@ -42,30 +43,18 @@ grid-template-columns: 1fr 1fr;
 }
 
 .imgright{
-    transform: translate(800px, -141px);
+    transform: translate(600px, -141px);
 }
 
 
 /*body start*/
 
 body{
-    background-color: #1f2937;
+    background-image:linear-gradient(
+        to bottom , grey 50% , red 50% 
+    );
+    height: 1300px;
 }
-
-.body1{
-    background-color: yellow;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 
