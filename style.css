@@ -124,17 +124,28 @@ body {
     transform: translate(0px,300px);
 }
 
-
-
-
-
-
-
-
 .middle {
     background-color: #e5e7eb;
 }
 
+.quote {
+    font-size: 36px;
+    
+    transform: translate(50px,350px);
+
+    font-style: italic;
+}
+
+.quoteauth{
+    
+    font-size: 36px;
+    font-style: bolder;
+    transform: translate(1000px,100px);
+}
+
+
+
 .bottom {
-    background-color:  red;
+   background-color: red;
+   
 }
