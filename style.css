@@ -6,6 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
+    background-color: #1f2937;
 }
 
 .header {
@@ -13,11 +14,12 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #333;
+    background-color: #1f2937;
 }
 
 .logo {
     display: flex;
+    transform: translate(200px,0px);
 }
 
 .buttonshead {
@@ -31,9 +33,28 @@ body {
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .buttonshead button a {
+    color: white;
+    text-decoration: none;
+}
+
+.buttonsign{
+    display: flex;
+}
+.buttonsign #signb  {
+    padding: 10px;
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.buttonsign button a{
     color: white;
     text-decoration: none;
 }
@@ -46,11 +67,15 @@ body {
 }
 
 .wlcmtext {
-    color: black;
+   transform: translate(200px, 0px);
+    color: white;
+    
+    
 }
 
 .imgright img {
     max-width: 100%;
+    border-radius: 10px;
 }
 
 .sections {
@@ -65,11 +90,45 @@ body {
 }
 
 .top {
-    background-color: grey;
+    background-color: white;
+    
+
 }
 
+.toptext{
+    text-align: center;
+}
+
+.containertop{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-top div {
+    background: white;
+    border: 4px solid blue;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    transform: translate(200px,200px);
+   flex: 1;
+   float: left;
+    
+}
+
+.container-top div{
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
 .middle {
-    background-color: lightblue;
+    background-color:yellow;
 }
 
 .bottom {
