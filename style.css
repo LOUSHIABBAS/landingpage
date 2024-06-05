@@ -81,7 +81,7 @@ body {
 .sections {
     display: flex;
     flex-direction: column;
-    height: 300vh;
+    height: 150vh;
 }
 
 .section {
@@ -140,12 +140,65 @@ body {
     
     font-size: 36px;
     font-style: bolder;
-    transform: translate(1000px,100px);
+    transform: translate(1000px,20px);
 }
 
 
 
 .bottom {
-   background-color: red;
+   background-color: white;
    
+   
+}
+
+.bottomcont{
+    display: flex;
+    
+}
+
+.bottomcont .bottomsign{
+    height: 250px;
+    width: 1400px;
+    background-color: #3882f6;
+    border: solid 4px #3882f6;
+    border-radius: 20px;
+    transform: translate(100px, 350px)
+    
+}
+
+.h1bs{
+    display: flex;
+    flex:1;
+    color: white;
+    height: 100px;
+    width: 1200px;
+    border: none;
+    background-color: none;
+    transform: translate(300px,75px);
+}
+
+.h1bstxt h4 {
+    font-size: 20px;
+    
+}
+
+.bottombuttonsign {
+    display: flex;
+}
+
+.bottombuttonsign button{
+    padding: 10px;
+    background-color: #3882f6;
+    color: white;
+    border: solid 2px white;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 125px;
+    transform: translate(1000px);
+    
+}
+
+.bottombuttonsign button a{
+    color: white;
+    text-decoration: none;
 }
