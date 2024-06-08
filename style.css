@@ -88,6 +88,7 @@ body {
 .section {
     flex: 1;
     width: 100%;
+    
 }
 
 .top {
@@ -131,11 +132,10 @@ body {
 
 .quote {
     font-size: 36px;
-    
-    transform: translate(10px,90px);
-
+    text-align: center;
+    transform: translate(30px,105px);
+    width: 1500px;
     font-style: italic;
-    
 }
 
 .quoteauth{
@@ -143,9 +143,7 @@ body {
     font-size: 36px;
     font-style: bolder;
     width: max-content;
-    transform: translate(1000px);
-   
-    
+    transform: translate(1200px);
 }
 
 
@@ -208,7 +206,18 @@ body {
     text-decoration: none;
 }
 
-.bottomest{
-    background-color: yellow;
+.sections2 {
+    display: flex;
+}
+
+.footer {
+    flex: 1;
+    height: 100px;
     
+}
+
+.footer p {
+color: white;
+width: max-content;
+transform: translate(700px, 40px);
 }
